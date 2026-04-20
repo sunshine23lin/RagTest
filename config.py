@@ -17,7 +17,7 @@ EMBEDDING_PROVIDER = os.getenv("EMBEDDING_PROVIDER", ACTIVE_LLM_PROVIDER)
 # 阿里百炼配置
 LLM_PROVIDERS = {
     "dashscope": {
-        "api_key": os.getenv("DASHSCOPE_API_KEY", "sk-0a30949a3c8c40d8b82948889848d1fc"),
+        "api_key": os.getenv("DASHSCOPE_API_KEY", "111111111"),
         "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
         "llm_model": "qwen-plus-2025-07-28",
         "fallback_model": "qwen3.5-plus",
@@ -28,7 +28,7 @@ LLM_PROVIDERS = {
         "max_tokens": 1024
     },
     "openrouter": {
-        "api_key": os.getenv("OPENROUTER_API_KEY", "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"),
+        "api_key": os.getenv("OPENROUTER_API_KEY", "1111111111"),
         "base_url": "https://openrouter.ai/api/v1",
         "llm_model": os.getenv("OPENROUTER_MODEL", "qwen/qwen-plus"),
         "fallback_model": os.getenv("OPENROUTER_FALLBACK_MODEL", "qwen/qwen3.5-plus"),
@@ -38,7 +38,7 @@ LLM_PROVIDERS = {
         "max_tokens": 1024
     },
     "zhipu": {
-        "api_key": os.getenv("ZHIPU_API_KEY", "8ce359252a8f43cd848a2c5b007b5e92.JSDEKPSdEeDVSDaS"),
+        "api_key": os.getenv("ZHIPU_API_KEY", "1111111"),
         "base_url": "https://open.bigmodel.cn/api/paas/v4",
         "llm_model": os.getenv("ZHIPU_LLM_MODEL", "glm-4-plus"),
         "fallback_model": os.getenv("ZHIPU_FALLBACK_MODEL", "glm-5"),
